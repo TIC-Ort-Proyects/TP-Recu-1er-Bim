@@ -5,8 +5,8 @@ using UnityEngine;
 public class NumeroMayor : MonoBehaviour
 {
 
-    public int numero1;
-    public int numero2;
+    public int numero1 = 0;
+    public int numero2 = 0;
 
     // Start is called before the first frame update
     void Start()

@@ -2,22 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PalabraSecreta : MonoBehaviour
+public class PositivoHastaNueve : MonoBehaviour
 {
 
-    public string secretWordInput = "";
-    string secretWord = "domingo";
+    public int number = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (secretWordInput == secretWord)
+        if (number < 10 && number > 0)
         {
-            Debug.Log("Has adivinado la palabra");
+            Debug.Log("El numero cumple con las condiciones");
         }
         else
         {
-            Debug.Log("Palabra incorrecta");
+            Debug.Log("El numero no cumple con las condiciones");
         }
     }
 

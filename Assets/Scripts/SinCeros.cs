@@ -5,8 +5,8 @@ using UnityEngine;
 public class SinCeros : MonoBehaviour
 {
 
-    public float num1;
-    public float num2;
+    public float num1 = 0;
+    public float num2 = 0;
 
     // Start is called before the first frame update
     void Start()
